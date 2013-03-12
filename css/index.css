@@ -1,0 +1,291 @@
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+    background: url('../img/site_background.png') top left;
+}
+
+.js_link {
+	cursor: pointer;
+}
+
+#sidebar_nav .js_link.selected {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#site_wrapper {
+	min-height: 789px;
+	width: 100%;
+}
+
+#site_content_wrapper {
+	width: 860px;
+	margin: 0px auto;
+	background: url('../img/ghosted_background.png');
+}
+
+#header {
+	height: 155px;
+}
+
+#header_buttons_wrapper{
+	height: 155px;
+	float: right;
+	margin-right: 48px;
+}
+
+#header_action_buttons_wrapper {
+	margin-top: 50px;
+	height: 40px;
+}
+
+#header_action_buttons_wrapper div {
+	float: right;
+	margin-left: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    background: #3178b4
+}
+
+#header_action_buttons_wrapper div.apply {
+	background: #d51820;
+}
+
+#header_social_buttons_wrapper {
+	margin-top: 20px;
+}
+
+#header_social_buttons_wrapper a img {
+	height: 40px;
+	float: right;
+}
+
+#header_logo {
+	padding-top: 10px;
+	padding-left: 65px;
+}
+
+#body_content_wrapper {
+	width: 860px;
+}
+
+#sidebar_wrapper {
+	min-height: 500px;
+	width: 166px;
+	border: 1px solid black;
+	float: right;
+	background: #FFF;
+}
+
+#sidebar_title {
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#sidebar_nav {
+	padding-top: 15px;
+	text-align: center;
+}
+
+#sidebar_nav li {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+#sidebar_social {
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#main_wrapper {
+	min-height: 400px;
+	width: 692px;
+}
+
+#main_header {
+	height: 118px;
+	width: 692px;
+	background: url('../img/main_header.png') top left no-repeat;
+}
+
+#main_header div {
+	color: white;
+	margin-left: 65px; 
+}
+
+#main_header_title {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#main_header_subtitle {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 130%;
+}
+
+#main_content {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	min-height: 180px;
+}
+
+#main_content h3 {
+    text-align: center;
+    font-size: 160%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#main_footer {
+	vertical-align: bottom;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	font-size: 16px;
+}
+
+#main_footer span.red {
+    color: red;
+    font-weight: bold;
+}
+	
+#hidden_pages {
+    display: none;
+}
+
+/* HOME PAGE */
+.home_page .left {
+	vertical-align: top;
+}
+
+.home_page .right {
+    width: 290px;
+}
+
+.home_page .warrior_scholar_logo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 277px;
+}
+
+.home_page .welcome_text {
+	padding-right: 20px;
+	line-height: 120%;
+}
+
+.home_page .slides_container {
+    width: 290px;
+    height: 163px;
+}
+
+.home_page .slides_container div {
+    width: 290px;
+    height: 163px;
+    display: block;
+}
+
+.home_page .photo_credit {
+	margin-top: 50px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.home_page .youtube_wrapper {
+	margin-top: 30px;
+}
+
+.warrior-scholar_page div {
+	margin: 20px 0px;
+	line-height: 120%;
+}
+
+.warrior-scholar_page .skill_list {
+	list-style: disc outside;
+	padding-left: 20px;
+	margin: 20px 0px;
+}
+
+.warrior-scholar_page .skill_list li {
+	margin-bottom: 10px;
+}
+
+.warrior-scholar_page .actions {
+	padding-left: 150px;
+}
+
+.donate_page div {
+    margin: 10px 0px;
+    line-height: 120%;
+}
+
+.leadership_page div {
+    margin: 20px 0px;
+    line-height: 120%;
+}
+
+.leadership_page .leader_name {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 5px 0px;
+}
+
+.leadership_page .leader_title {
+    font-size: 110%;
+    font-style: italic;
+    margin: 5px 0px;
+}
+
+.news_page div {
+	margin: 20px 0px;
+}
+
+.news_page div a {
+	display: block;
+	font-size: 20px;
+}
+
+/* ACTION BOXES */
+.actions div {
+	margin: 0px;
+}
+
+.actions div.action_button {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.actions div.apply {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 280px;
+    background: #d51820;
+}
+
+.actions div.donate, .actions div.volunteer {
+    background: #3178b4;
+    float: left;
+    margin-right: 10px;
+}
+
+.actions div.donate {
+    margin-left: 70px;
+}
+
+
